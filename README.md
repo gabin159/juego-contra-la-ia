@@ -13,9 +13,10 @@ En esta seccion se detalla la ubicacion exacta y las lineas de codigo correspond
  
   from neural import NeuralNetwork
 
-  # Se instancia la red neuronal pasando la estructura de capas ocultas y la tasa de aprendizaje
----
+# Se instancia la red neuronal pasando la estructura de capas ocultas y la tasa de aprendizaje
   nn = NeuralNetwork(hidden=(12, 8), learning_rate=0.01)
+
+---
 1.2. La sumatoria de las (Entradas * Pesos) (X * W)
 **Archivo:** `neural.py`
  **Metodo:** forward(self, X)
